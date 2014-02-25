@@ -1,0 +1,74 @@
+* { margin: 0; padding: 0; }
+html,body { width: 90%; height: 90%; background: #fff; }
+
+.allRooms {    
+    margin: 20px;
+    box-shadow: 0 0 5px;
+    width: 600px;
+    height: 100%;
+}
+
+.hisRoom {
+    position: relative;
+    border-right: 1px solid #c2c2c2;
+    height: 100%;
+    width: 300px;
+    float: left;
+}
+
+.herRoom {
+    position: relative;
+    width: 299px;
+    height: 100%;
+    float: left;
+}
+
+.detector-1 {
+     position: absolute;
+     right: 20px;
+     border-left: 1px solid #c2c2c2;
+     width: 10px; height: 20px;
+     bottom: 65px;
+}
+
+.detector-2 {
+     position: absolute;
+     right: 20px;
+     width: 10px; height: 20px;
+     border-left: 1px solid #c2c2c2;
+     bottom: 33px;
+}
+h2 { text-align: center; color: #c2c2c2; }
+.element {
+     border: 1px solid #c2c2c2;
+     width: 30px; height: 10px;
+     position: absolute;
+     bottom: 53px;
+     right: 50px;
+}
+
+.detector-3 {
+     position: absolute;
+     width: 10px; height: 20px;
+     border-left: 1px solid #c2c2c2;
+     bottom: 65px;
+     left: 30px;
+}
+
+.detector-4 {
+     position: absolute;
+     width: 10px; height: 20px;
+     border-left: 1px solid #c2c2c2;
+     bottom: 33px;
+     left: 30px;
+}
+
+.g-element {
+    position: absolute;
+    bottom: 53px;
+    border: 1px solid #c2c2c2;
+    border-left: 0px;
+    width:0px;
+    height: 10px;
+    left: 30px;
+}
