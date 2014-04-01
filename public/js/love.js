@@ -15,6 +15,31 @@ $(function(){
 
 	   },10); 
 	}
+	
+	$('.hisRoom .turner img, .herRoom .turner img').click(function(){
+		
+		$this = $(this);
+	
+		if ($this.attr("src")=="public/img/off_.png") {
+		
+			$this.attr("src","public/img/on_.png");
+			
+			$this.parent().parent().find('.light').animate({
+				'opacity': '0'
+			},1000);
+			
+		
+		} else {
+			
+			$this.attr("src","public/img/off_.png");
+			
+			$this.parent().parent().find('.light').animate({
+				'opacity': '1'
+			},1000);
+		
+		}
+	
+	});
 
 	$('.element').click(function(){
 
