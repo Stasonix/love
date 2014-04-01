@@ -21,13 +21,14 @@ $(function(){
 		$this = $(this);
 	
 		if ($this.attr("src")=="public/img/off_.png") {
-		
+				
 			$this.attr("src","public/img/on_.png");
 			
 			$this.parent().parent().find('.light').animate({
 				'opacity': '0'
-			},1000);
+			},1000);			
 			
+			$this.parent().find('select[name="country"]').fadeIn();
 		
 		} else {
 			
@@ -36,6 +37,8 @@ $(function(){
 			$this.parent().parent().find('.light').animate({
 				'opacity': '1'
 			},1000);
+			
+			$this.parent().find('select[name="country"]').fadeOut();
 		
 		}
 	
